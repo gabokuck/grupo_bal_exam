@@ -1,5 +1,5 @@
 import 'package:bal_exam/features/employees/domain/repositories/employee_repository.dart';
-import 'package:bal_exam/features/employees/presentation/entities/employee.dart';
+import 'package:bal_exam/features/employees/domain/entities/employee.dart';
 
 class ToggleEmpleyeeStatus {
   const ToggleEmpleyeeStatus(this._repository);

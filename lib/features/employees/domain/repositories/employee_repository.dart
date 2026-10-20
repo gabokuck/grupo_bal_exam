@@ -1,4 +1,4 @@
-import '../../presentation/entities/employee.dart';
+import '../entities/employee.dart';
 
 abstract interface class EmployeRepository {
   Future<List<Employee>> getEmployees();

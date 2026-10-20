@@ -1,7 +1,7 @@
 import 'package:bal_exam/features/employees/data/datasources/employee_data_source.dart';
 import 'package:bal_exam/features/employees/data/models/employee_model.dart';
 import 'package:bal_exam/features/employees/domain/repositories/employee_repository.dart';
-import 'package:bal_exam/features/employees/presentation/entities/employee.dart';
+import 'package:bal_exam/features/employees/domain/entities/employee.dart';
 
 class EmployeeRepositoryImpl implements EmployeRepository {
   const EmployeeRepositoryImpl(this._dataSource);

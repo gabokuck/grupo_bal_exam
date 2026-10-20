@@ -1,4 +1,4 @@
-import 'package:bal_exam/features/employees/presentation/entities/employee.dart';
+import 'package:bal_exam/features/employees/domain/entities/employee.dart';
 
 class EmployeeModel extends Employee {
   const EmployeeModel({
